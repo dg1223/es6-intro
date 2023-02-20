@@ -30,4 +30,4 @@ function getNames() {
 }
 
 const [baba, chacha] = getNames();
-console.log(chacha, baba);
+// console.log(chacha, baba);
