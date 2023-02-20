@@ -30,5 +30,5 @@ function add4(first, second){
 // arrow functiron
 const add6 = (first, second) => first + second
 
-const result(10, 20)
+const result(10, 20);
 console.log(result)
