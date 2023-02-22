@@ -67,9 +67,18 @@ class JobPlacement extends TeamMember {
 }
 
 const alia = new Developer("Alia Bhatt", "Dhaka", "React");
-console.log(alia);
-alia.provideFeedback();
+// console.log(alia);
+// alia.provideFeedback();
 
 const bipasha = new JobPlacement("bipasha", "khulna", "Asia");
-console.log(bipasha);
-bipasha.provideResume("SEA");
+// console.log(bipasha);
+// bipasha.provideResume("SEA");
+
+const product = {
+  name: "Laptop",
+  model: "Yoga 3",
+  price: 49000,
+  dusk: "512SSD",
+};
+const { price } = product;
+console.log(price);
